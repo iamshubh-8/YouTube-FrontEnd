@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Using CSS Flex 
+        </title>
+
+        <style>
+
+            .main {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                width: 335px;
+                margin-bottom: 8px;
+            }
+
+            .pic {
+                width: 50px;
+                height: 50px;
+                border: none;
+                border-radius: 50px;
+                object-fit: cover;
+                margin-right: 15px;
+
+            }
+
+            .block1, .block2, block3 {
+                display: flex;
+                flex-direction: column;
+            }
+            
+
+            .block2 {
+                width: 200px;
+            }
+
+
+
+            .p1 {
+                font-size: 15px;
+                font-weight: 600;
+                margin-right: 200px;
+            }
+
+            .p2 {
+                font-size: 10px;
+                color: gray;
+                margin-right: 200px;
+            }
+
+            .button {
+                color: white;
+                font-weight: 500;
+                background-color: rgb(46, 137, 228);
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border-radius: 5px;
+                border: none;
+            }
+
+
+        </style>
+
+        
+    </head>
+
+    <body>
+        
+        <div class="main">
+
+            <div class="block1">
+
+                <img class="pic" src="cute-furry-cat-outdoors.jpg">
+
+            </div>
+
+            <div class="block2">
+
+                <div class="p1">
+                    Oliver
+                </div>
+
+                <div class="p2">
+                    the cat
+                </div>
+
+                <div class="p2">
+                    Popular
+                </div>
+
+            </div>
+
+            <div class="block3">
+                <button class="button">
+                    Follow
+                </button>
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="main">
+
+            <div class="block1">
+
+                <img class="pic" src="adorable.jpg">
+
+            </div>
+
+            <div class="block2">
+
+                <div class="p1">
+                    Mimi
+                </div>
+
+                <div class="p2">
+                    Sleepy Cat
+                </div>
+
+                <div class="p2">
+                    Popular
+                </div>
+
+            </div>
+
+            <div class="block3">
+                <button class="button">
+                    Follow
+                </button>
+            </div>
+
+
+        </div>
+
+
+
+
+
+
+        <div class="main">
+
+            <div class="block1">
+
+                <img class="pic" src="fluffy-cat-with-green-eyes.jpg">
+
+            </div>
+
+            <div class="block2">
+
+                <div class="p1">
+                    Rex
+                </div>
+
+                <div class="p2">
+                    Sweet Cat
+                </div>
+
+                <div class="p2">
+                    Popular
+                </div>
+
+            </div>
+
+            <div class="block3">
+                <button class="button">
+                    Follow
+                </button>
+            </div>
+
+
+        </div>
+
+
+    </body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Header Using Flex
+        </title>
+
+        <style>
+
+            .header {
+                display: flex;
+                flex-direction: row;
+                background-color: blueviolet;
+                justify-content:space-between;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                align-items: center;
+            }
+
+            .p {
+                font-family: Arial;
+                color: white;
+                font-weight: 600;
+            }
+
+
+            .search {
+                width: 450px;
+                padding-left: 18px;
+                padding-bottom: 7px;
+                padding-top: 7px;
+                border: none;
+                border-radius: 18px;
+
+            }
+
+            .button {
+                background-color: blueviolet;
+                border: solid;
+                color: white;
+                border-color: white;
+                text-align: center;
+                padding-left: 12px;
+                padding-right: 12px;
+                padding-top: 6px;
+                padding-bottom: 6px;
+                border-width: 1px;
+                border-radius: 1px;
+                
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="header">
+
+            <div class="p">
+                Home
+            </div>
+
+            <div>
+                <input class="search" type="text" placeholder="Search">
+            </div>
+
+            <div>
+                <button class="button">
+                    Download
+                </button>
+            </div>
+
+        </div>
+
+    </body>
+</html>
