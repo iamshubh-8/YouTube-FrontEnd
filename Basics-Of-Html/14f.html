@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Discord Double Sidebar
+        </title>
+
+        <style>
+
+            .side1 {
+                position: fixed;
+                left: 0;
+                top: 0;
+                bottom: 0;
+                width: 54px;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(25, 24, 24);
+                padding-left: 8px;
+                padding-top: 25px;
+                padding-right: 10px;
+            }
+
+
+            .img {
+                width: 46px;
+                height: 46px;
+                border: none;
+                border-radius: 23px;
+                margin-bottom: 10px;
+                object-fit: cover;
+            }
+
+            .side2 {
+                position: fixed;
+                left: 70px;
+                top: 0;
+                bottom: 0;
+                width: 140px;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(47, 44, 44);
+                padding-left: 8px;
+                padding-top: 25px;
+                padding-right: 10px;
+            }
+
+
+            .column {
+                display: flex;
+                flex-direction: column;
+            }
+
+
+            .row {
+                display: flex;
+                flex-direction: row;
+                color:  rgb(217, 217, 217);
+                justify-content: space-between;
+                font-weight: 600;
+                font-size: 15px;
+                align-items: center;
+            }
+
+
+            .para {
+                display: flex;
+                margin-bottom: 18px;
+                margin-left: 10px;
+                color: rgb(99, 99, 99);
+            }
+
+            .sign {
+                margin-right: 8px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        
+
+        <div class="side1">
+
+            <img class="img" src="fluffy-cat-with-green-eyes.jpg">
+
+            <img class="img" src="adorable.jpg">
+
+            <img class="img" src="cute-furry-cat-outdoors.jpg">
+
+        </div>
+
+        <div class="side2">
+
+
+            <div class="column">
+
+
+                <div class="row">
+
+                    <div style="margin-left: 10px;">
+                        INFO
+                    </div>
+
+                    <div style="font-size: 25px; margin-right: 5px;">
+                        +
+                    </div>
+
+                </div>
+
+
+                <div class="row">
+
+
+                    <div class="para">
+                        <div class="sign">#</div>   <div>new-videos</div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+
+                  <div class="para">
+                        <div class="sign">#</div>   <div>updates</div>
+                    </div>
+
+
+                </div>
+
+                <div class="row">
+
+
+                    <div class="para">
+                        <div class="sign">#</div>   <div>faq</div>
+                    </div>
+
+                 
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
