@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Shirt Using Positioning!
+        </title>
+
+        <style>
+
+            .main {
+                position: fixed;
+                left: 10px;
+                top: 10px;
+                z-index: 0;
+
+            }
+
+
+            .grey {
+                position: relative;
+                height: 300px;
+                width: 240px;
+                background-color: gray;
+                z-index: 0;
+            }
+
+
+            .off {
+                position: absolute;
+                background-color: black;
+                color: white;
+                font-size: 14px;
+                right: 0px;
+                top: 7px;
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-bottom: 4px;
+                padding-top: 4px;
+            }
+
+
+            .img {
+                height: 300px;
+                width: 240px;
+                z-index: 30;
+            }
+
+
+            .overlay {
+                position: absolute;
+                bottom: 0;
+                width: 240px;
+                height: 70px;
+                background-color: rgba(255, 255, 255, 0.7);
+                z-index: 50;
+                object-position: center;
+            }
+
+
+
+            .but {
+                position: absolute;
+                bottom: 27px;
+                left: 87px;
+                border: solid;
+                border-width: 1px;
+                padding-top: 4px;
+                padding-bottom: 4px;
+                font-size: 12px;
+            }
+
+
+
+        </style>
+    </head>
+
+    <body style="height: 3000px;">
+
+        <div class="main">
+
+            <div class="grey">
+
+                <img class="img" src="shirt.avif">
+
+                <div class="off">
+                    20% OFF
+                </div>
+
+                <div class="overlay">
+
+                    <button class="but">
+                        Add to Cart
+                    </button>
+                    
+                </div>
+
+
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

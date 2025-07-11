@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Shirt Using Positioning!
+        </title>
+
+        <style>
+
+            .main {
+                position: fixed;
+                left: 10px;
+                top: 10px;
+
+            }
+
+
+            .grey {
+                position: relative;
+                height: 300px;
+                width: 240px;
+                background-color: gray;
+            }
+
+
+            .off {
+                position: absolute;
+                background-color: black;
+                color: white;
+                font-size: 14px;
+                right: 0px;
+                top: 7px;
+                padding-left: 8px;
+                padding-right: 8px;
+                padding-bottom: 4px;
+                padding-top: 4px;
+            }
+
+
+            .img {
+                height: 300px;
+                width: 240px;
+            }
+
+            
+
+        </style>
+    </head>
+
+    <body style="height: 3000px;">
+
+        <div class="main">
+
+            <div class="grey">
+
+                <img class="img" src="shirt.avif">
+
+                <div class="off">
+                    20% OFF
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </body>
+</html>

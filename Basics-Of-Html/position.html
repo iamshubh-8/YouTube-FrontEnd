@@ -24,13 +24,15 @@
           top: 0;
           left: 0; 
           right: 0; 
-          height: 50px;     
+          height: 50px;   
+          z-index: 1;  
          ">
-            header
+            header           <!--By default z-index value is 0 and it is used to select element to either appear at above page or below page-->
         </div>
 
 
 
+        <!-- IMPORTANT CONCEPT -->
         <div style="
             background-color: green;
             color: white;
@@ -43,9 +45,33 @@
 
             sidebar
 
+                <div style="
+            position: absolute;
+            background-color: red;
+            color: white;
+            top: 0px;
+            right: 0px;
+            z-index: 2;
+            ">
+                X            <!--Higher z-index means that element will occur at top of the page-->
+            </div>
+
 
         </div>
 
+
+
+
+        <div style="
+        position: absolute;
+        background-color: red;
+        color: white;
+        top: 60px;
+        right: 10px;
+        z-index: 2;
+        ">
+            Absolute               <!--Higher z-index means that element will occur at top of the page-->
+        </div>
 
 
 
@@ -76,9 +102,21 @@
         <div style="background-color: lightpink; 
         height: 200px;
         width: 200px;
+        position: relative;
         ">
             
             div2
+
+                <div style="
+            position: absolute;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            z-index: 2;
+            bottom: 10px;
+            right: 10px;
+            ">
+                5:00              <!--Higher z-index means that element will occur at top of the page-->
+            </div>
         
         </div>
 

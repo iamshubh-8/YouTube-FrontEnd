@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Practicing Absolute and Relative Positioning!
+        </title>
+
+        <style>
+
+            .right {
+                position: fixed;
+                right: 14px;
+                top: 14px;
+            }
+
+            .black {
+                position: relative;
+                right: 0px;
+                top: 0px;
+                left: 0;
+                bottom: 0;
+                height: 36px;
+                width: 36px;
+                border-radius: 18px;
+                background-color: black;
+                border: none;
+            }
+
+
+            .x {
+                position: absolute;
+                top: 8px;
+                left: 12px;
+                right: 3px;
+                bottom: 6px;
+                color: white;
+            }
+
+        </style>
+    </head>
+
+    <body>
+
+        <div class="right">
+
+            <div class="black">
+
+                <div class="x">
+                    X
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </body>
+</html>
