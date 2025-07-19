@@ -197,7 +197,13 @@ p {
 .profile-container3 .imgtip,
 .profile-container4 .imgtip,
 .profile-container5 .imgtip,
-.profile-container6 .imgtip {
+.profile-container6 .imgtip,
+.profile-container7 .imgtip,
+.profile-container8 .imgtip,
+.profile-container9 .imgtip,
+.profile-container10 .imgtip,
+.profile-container11 .imgtip,
+.profile-container12 .imgtip {
     position: absolute;
     top: 50px;
     left: 0;
@@ -221,7 +227,13 @@ p {
 .profile-container3,
 .profile-container4,
 .profile-container5,
-.profile-container6 {
+.profile-container6,
+.profile-container7,
+.profile-container8,
+.profile-container9,
+.profile-container10,
+.profile-container11,
+.profile-container12 {
     position: relative;
     display: inline-block;
 }
@@ -231,7 +243,13 @@ p {
 .profile-container3:hover .imgtip,
 .profile-container4:hover .imgtip,
 .profile-container5:hover .imgtip,
-.profile-container6:hover .imgtip {
+.profile-container6:hover .imgtip,
+.profile-container7:hover .imgtip,
+.profile-container8:hover .imgtip,
+.profile-container9:hover .imgtip,
+.profile-container10:hover .imgtip,
+.profile-container11:hover .imgtip,
+.profile-container12:hover .imgtip {
     opacity: 1;
 }
 
