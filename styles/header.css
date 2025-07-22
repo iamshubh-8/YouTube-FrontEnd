@@ -40,7 +40,7 @@
     border: 1px solid rgb(192,192,192);
     border-radius: 2px;
     box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
-    width: 0;   <!-- To make the search bar shrink -->
+    width: 0;   /* To make the search bar shrink */
 }
 
 .searchbar::placeholder {
@@ -128,7 +128,7 @@
     width: 180px;
     justify-content: space-between;
     margin-right: 20px;
-    flex-shrink: 0;      <!-- Prevents Icons from Shrinking -->
+    flex-shrink: 0;      /* Prevents Icons from Shrinking */
 }
 
 
@@ -203,9 +203,21 @@ p {
 .profile-container9 .imgtip,
 .profile-container10 .imgtip,
 .profile-container11 .imgtip,
-.profile-container12 .imgtip {
+.profile-container12 .imgtip,
+.profile-container13 .imgtip,
+.profile-container14 .imgtip,
+.profile-container15 .imgtip,
+.profile-container16 .imgtip,
+.profile-container17 .imgtip,
+.profile-container18 .imgtip,
+.profile-container19 .imgtip,
+.profile-container20 .imgtip,
+.profile-container21 .imgtip,
+.profile-container22 .imgtip,
+.profile-container23 .imgtip,
+.profile-container24 .imgtip {
     position: absolute;
-    top: 50px;
+    top: 35px;
     left: 0;
     display: flex;
     flex-direction: row;
@@ -233,7 +245,19 @@ p {
 .profile-container9,
 .profile-container10,
 .profile-container11,
-.profile-container12 {
+.profile-container12,
+.profile-container13,
+.profile-container14,
+.profile-container15,
+.profile-container16,
+.profile-container17,
+.profile-container18,
+.profile-container19,
+.profile-container20,
+.profile-container21,
+.profile-container22,
+.profile-container23,
+.profile-container24  {
     position: relative;
     display: inline-block;
 }
@@ -249,7 +273,19 @@ p {
 .profile-container9:hover .imgtip,
 .profile-container10:hover .imgtip,
 .profile-container11:hover .imgtip,
-.profile-container12:hover .imgtip {
+.profile-container12:hover .imgtip,
+.profile-container13:hover .imgtip,
+.profile-container14:hover .imgtip,
+.profile-container15:hover .imgtip,
+.profile-container16:hover .imgtip,
+.profile-container17:hover .imgtip,
+.profile-container18:hover .imgtip,
+.profile-container19:hover .imgtip,
+.profile-container20:hover .imgtip,
+.profile-container21:hover .imgtip,
+.profile-container22:hover .imgtip,
+.profile-container23:hover .imgtip,
+.profile-container24:hover .imgtip {
     opacity: 1;
 }
 
